@@ -1,0 +1,5 @@
+127.0.0.1 - - [08/Feb/2022:01:33:57 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Feb/2022:01:33:57 +0530] "GET /app05-empapp/WEB-INF/classes/com/model/persistence/ConnectionFactory.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [08/Feb/2022:01:34:04 +0530] "GET /app05-empapp/ HTTP/1.1" 200 1107
+0:0:0:0:0:0:0:1 - - [08/Feb/2022:01:34:04 +0530] "GET /app05-empapp/validate.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2022:01:34:14 +0530] "POST /app05-empapp/empcontroller HTTP/1.1" 200 212

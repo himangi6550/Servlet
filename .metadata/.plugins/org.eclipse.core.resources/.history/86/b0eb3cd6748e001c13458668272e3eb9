@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index</title>
+</head>
+<body>
+<form action="redirectServlet" method="post">
+		
+<input type="radio" name="option" value="gmail"> G-mail<br>
+<input type="radio" name="option" value="rediff"> Rediff mail<br>
+<input type="radio" name="option" value="yahoo"> Yahoo mail<br>
+<input type="radio" name="option" value="hotmail"> Hot mail<br>
+<input type="radio" name="option" value="unknown"> Unknown<br>
+
+<p><input type="submit" value="Submit"></p>
+</form>
+	
+	
+
+	
+</body>
+</html>

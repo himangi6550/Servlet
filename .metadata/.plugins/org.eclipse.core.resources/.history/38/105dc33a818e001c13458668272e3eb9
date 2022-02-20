@@ -1,0 +1,6 @@
+package com.model.persistence;
+
+public enum branch {
+	java, oracle, php,dotnet;
+
+}

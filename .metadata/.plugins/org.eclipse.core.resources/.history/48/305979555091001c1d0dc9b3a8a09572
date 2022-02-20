@@ -1,0 +1,15 @@
+package com.model.persistence;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.model.exceptions.DataAccessException;
+
+public interface ProductDao {
+	
+	public Trainee addEmployee(Trainee trainee);
+	
+	public List<Trainee> getAll()throws DataAccessException;
+	public Optional<Trainee> getById(int id);
+
+}

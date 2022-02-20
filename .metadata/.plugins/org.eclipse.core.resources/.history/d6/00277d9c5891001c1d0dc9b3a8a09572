@@ -1,0 +1,33 @@
+package com.model.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.model.exceptions.DataAccessException;
+import com.model.exceptions.ProductNotFoundException;
+import com.model.persistence.Product;
+import com.model.persistence.Trainee;
+
+public class ProductServiceImpl implements ProductService{
+
+	@Override
+	public Product addTrainee(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAll() throws DataAccessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Product> getById(int id) throws ProductNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

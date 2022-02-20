@@ -1,0 +1,16 @@
+package com.model.exceptions;
+
+public class DataAccessException extends RuntimeException{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	public synchronized Throwable initCause(Throwable arg0) {
+		// TODO Auto-generated method stub
+		return super.initCause(arg0);
+	}
+
+}

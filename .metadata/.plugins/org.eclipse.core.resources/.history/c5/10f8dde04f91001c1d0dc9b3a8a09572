@@ -1,0 +1,47 @@
+package com.model.persistence;
+
+public class Trainee {
+	int trainee_id;
+	String traineeName;
+	Branch branchName;
+	Double percentage;
+	public Trainee(int trainee_id, String traineeName, Branch branch, Double percentage) {
+		super();
+		this.trainee_id = trainee_id;
+		this.traineeName = traineeName;
+		this.branchName = branch;
+		this.percentage = percentage;
+	}
+	public int getTrainee_id() {
+		return trainee_id;
+	}
+	public void setTrainee_id(int trainee_id) {
+		this.trainee_id = trainee_id;
+	}
+	public String getTraineeName() {
+		return traineeName;
+	}
+	public void setTraineeName(String traineeName) {
+		this.traineeName = traineeName;
+	}
+	public Branch getBranch() {
+		return branchName;
+	}
+	public void setBranch(Branch branch) {
+		this.branchName = branch;
+	}
+	public Double getPercentage() {
+		return percentage;
+	}
+	public void setPercentage(Double percentage) {
+		this.percentage = percentage;
+	}
+	@Override
+	public String toString() {
+		return "Trainee [trainee_id=" + trainee_id + ", traineeName=" + traineeName + ", branch=" + branchName
+				+ ", percentage=" + percentage + "]";
+	}
+	
+	
+
+}

@@ -1,0 +1,30 @@
+package com.model.persistence;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.model.exceptions.DataAccessException;
+
+public class ProductDaoImpl implements ProductDao {
+
+	@Override
+	public Product addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAll() throws DataAccessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Product> getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

@@ -1,0 +1,6 @@
+ackage com.model.persistence;
+
+public enum Branch {
+	java, oracle, php,dotnet;
+
+}
